@@ -21,7 +21,7 @@ function calculateNumber(strNum) {
   // code below here
   var array = [];
   var tampung = '';
-  //Memisahkan operator
+  //jenis operator
   for(var i=0;i<strNum.length;i++){
     if(i === strNum.length-1){
       tampung += strNum[i];
